@@ -55,7 +55,7 @@ for number in range(int(x)):
         box_size=4,
         border=7,
     )
-    qr.add_data('http://www.ccypcy.com/qrcode/qrcode.php?product=' + now + str(number) + '&md5=' + passwd)
+    qr.add_data('http://www.xyz.com/qrcode/qrcode.php?product=' + now + str(number) + '&md5=' + passwd)
     qr.make(fit=True)
     img = qr.make_image()
     img = img.convert("RGBA")
