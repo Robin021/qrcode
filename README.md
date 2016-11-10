@@ -1,2 +1,0 @@
-# qrcode
-tea qrcode generater
